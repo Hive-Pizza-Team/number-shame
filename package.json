@@ -1,0 +1,15 @@
+{
+  "name": "number-shame",
+  "version": "1.0.0",
+  "description": "Bot for Discord number game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@HiveTrending",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  }
+}
