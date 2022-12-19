@@ -36,6 +36,11 @@ client.on("messageCreate", async (message) => {
 
   console.log(`New message: ${message.cleanContent}`);
 
+  if (message.cleanContent === '1' || message.cleanContent === '2') {
+    // ignore new game start
+    return
+  }
+
   const recentMessages = await channel.messages.fetch({
     limit: 5,
     cache: true,
