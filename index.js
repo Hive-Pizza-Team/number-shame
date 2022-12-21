@@ -80,7 +80,7 @@ client.on("messageCreate", async (message) => {
     const author = message.author.username;
     console.log(`number game fail: ${message} by ${author}`);
     if (!DEBUG) {
-      announceChannel.send(`BETA: ${author} failed at number game.`);
+      announceChannel.send(`Oh no! ${author} failed at number game.`);
     }
       } else {
     console.log(`valid entry: ${message}`);
